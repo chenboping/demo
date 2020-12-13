@@ -12,6 +12,7 @@ public class HelloController {
     @GetMapping("/man")
     public String hello(@RequestParam("name")String name,@RequestParam("password")String password){
         System.out.println(name+password);
+        //520
         return "我们去玩吧！";
     }
 }
